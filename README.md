@@ -99,3 +99,5 @@ for information about configuring your GeoTrellis instance and importing your da
 The blank REST service is in the file `src/main/scala/geotrellis/rest/TemplateResource.scala`.
 Edit that file to change the existing service, or create a similar class in the
 `geotrellis.rest` package to create a new service.
+
+[csrm]: https://github.com/n8han/conscript#readme
