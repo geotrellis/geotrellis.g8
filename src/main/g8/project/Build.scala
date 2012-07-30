@@ -5,11 +5,9 @@ object MyBuild extends Build {
   val geotoolsVersion = "2.7.4"
 
   lazy val project = Project("root", file(".")) settings(
-    organization := "$org$",
+    //organization := "org.sample.demo",
 
-    name := "$project_name$",
-
-    version := "$version$",
+    name := "$name$",
 
     scalaVersion := "2.9.2",
 
