@@ -21,7 +21,7 @@ object MyBuild extends Build {
       "junit" % "junit" % "4.5" % "test",
       "org.eclipse.jetty" % "jetty-webapp" % "8.1.0.RC4",
       "com.sun.jersey" % "jersey-bundle" % "1.11",
-      "com.azavea.geotrellis" %% "geotrellis" % "0.7.0-SNAPSHOT"
+      "com.azavea.geotrellis" %% "geotrellis" % "0.7.0-RC2"
     ),
 
     resolvers ++= Seq(
