@@ -25,6 +25,7 @@ object MyBuild extends Build {
     ),
 
     resolvers ++= Seq(
+      "opengeo" at "http://repo.opengeo.org/",
       "Geotools" at "http://download.osgeo.org/webdav/geotools/",
       "NL4J Repository" at "http://nativelibs4java.sourceforge.net/maven/",
       "maven2 dev repository" at "http://download.java.net/maven/2",
