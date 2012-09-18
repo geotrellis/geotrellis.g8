@@ -25,6 +25,7 @@ object MyBuild extends Build {
     ),
 
     resolvers ++= Seq(
+      "Geotools" at "http://download.osgeo.org/webdav/geotools/",
       "NL4J Repository" at "http://nativelibs4java.sourceforge.net/maven/",
       "maven2 dev repository" at "http://download.java.net/maven/2",
       "Scala Test" at "http://www.scala-tools.org/repo-reloases/",
