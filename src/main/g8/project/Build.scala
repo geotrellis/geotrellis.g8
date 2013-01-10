@@ -9,19 +9,17 @@ object MyBuild extends Build {
 
     name := "$name$",
 
-    scalaVersion := "2.9.2",
+    scalaVersion := "2.10.0",
 
     scalacOptions ++= Seq("-deprecation", "-unchecked", "-optimize"),
 
     parallelExecution := false,
 
     libraryDependencies ++= Seq(
-      "com.google.code.caliper" % "caliper" % "1.0-SNAPSHOT" from "http://n0d.es/jars/caliper-1.0-SNAPSHOT.jar",
-      "org.scalatest" %% "scalatest" % "1.6.1" % "test",
       "junit" % "junit" % "4.5" % "test",
       "org.eclipse.jetty" % "jetty-webapp" % "8.1.0.RC4",
       "com.sun.jersey" % "jersey-bundle" % "1.11",
-      "com.azavea.geotrellis" %% "geotrellis" % "0.7.0"
+      "com.azavea.geotrellis" %% "geotrellis" % "0.8.0-SNAPSHOT"
     ),
 
     resolvers ++= Seq(
