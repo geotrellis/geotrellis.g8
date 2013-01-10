@@ -55,9 +55,10 @@ Change to the directory created, which is based on the name you provided to g8:
 cd gt-template 
 ```
 
-and then run sbt:
+and then run sbt, after making the sbt script runnable:
 
 ```bash
+chmod 755 ./sbt
 ./sbt
 ```
 
