@@ -46,7 +46,7 @@ and run `./sbt`.  For example:
 
 Create the template:
 ```bash
-g8 azavea/geotrellis.g8
+g8 geotrellis/geotrellis.g8
 ```
 
 Change to the directory created, which is based on the name you provided to g8:
@@ -92,7 +92,7 @@ message you provided for g8.
 
 ## Step 2: Configuration and data import
 
-See the [Setting Up GeoTrellis page](http://azavea.github.com/geotrellis/getting_started/Setting+up+GeoTrellis.html)
+See the [Setting Up GeoTrellis page](http://geotrellis.github.com/gettingstarted/settingup.html)
 for information about configuring your GeoTrellis instance and importing your data.
 
 ## Step 3: Create your service
