@@ -28,13 +28,13 @@ Run:
 
 ## Start coding
 
-See the [getting started guide](http://azavea.github.com/geotrellis/getting_started/GeoTrellis.html)
+See the [getting started guide](http://geotrellis.github.com/gettingstarted)
 for more information on available operations, importing your data, and creating
 your web service.
 
 If you want to start looking at some code, take a look at at Demo REST service 
 included with the core
-GeoTrellis repository (https://github.com/azavea/geotrellis) as an example of how
+GeoTrellis repository (https://github.com/geotrellis/geotrellis) as an example of how
 to build your own geoprocessing service.
 
 ## Step 1: Run SBT
